@@ -10,6 +10,8 @@
             console.error('Error', e)
         }
         img.setAttribute('alt', word)
+
+        img.style.outline = '2px solid red'
     }
 
     let images = [...document.querySelectorAll('img')]
